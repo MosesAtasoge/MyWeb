@@ -1,0 +1,34 @@
+{
+  "name": "my-paroki",
+  "version": "1.0.0",
+  "description": "Website untuk memonitoring database umat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MosesAtasoge/MyWeb.git"
+  },
+  "keywords": [
+    "123"
+  ],
+  "author": "atasoge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MosesAtasoge/MyWeb/issues"
+  },
+  "homepage": "https://github.com/MosesAtasoge/MyWeb#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.0.0",
+    "pug": "^2.0.4",
+    "sequelize": "^5.21.2"
+  }
+}
