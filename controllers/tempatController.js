@@ -8,9 +8,6 @@ exports.getAddNamaTempat = (req, res, next) => {
     })
     .catch(err => {
         console.log(err);
-    });
-}
-
 exports.get_landing = (req, res, next) => {
     res.render('landing', {title: 'Data Umat'})
 }
