@@ -1,0 +1,31 @@
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+
+<!-- Menampilkan alert sesudah tombol submit di-klik -->
+<div class="kt-portlet__foot">
+    <div class="kt-form__actions">
+        <div class="row">
+            <div class="col-lg text-right">
+                <input type="hidden" value="<%= csrfToken %>" name="_csrf"
+                    id="csrfToken">     
+                <div id="app">                                             
+                    <button type="reset"
+                        class="btn btn-danger btn-elevate btn-pill btn-elevate-air">Reset</button>                                                       
+                    <button type="submit"
+                        class="btn btn-brand btn-elevate btn-pill btn-elevate-air" v-on:click="info('Are you sure you want to Submit?')">Submit</button>    
+                </div>
+                <script type="text/javascript">
+                    var vm = new Vue({
+                        el: '#app',
+                        methods:{
+                            info(text){
+                                alert(text)
+                                }
+                            }
+                        })
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+        

@@ -13,11 +13,14 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 //Routing
-const tempatRoute = require('./routes/tempatRoute');
+const landingRoute = require('./routes/landingRoute');
+const imamRoute = require('./routes/imamRoute')
+
 
 //Route
-app.use('/', tempatRoute);
-app.use('/NamaTempat', tempatRoute);
+app.use('/', landingRoute);
+app.use('/imam', imamRoute);
+
 
 Sequelize
     // Buat Reset Database table
