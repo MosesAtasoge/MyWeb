@@ -110,12 +110,12 @@
 								</g>
 							</svg></span><span class="kt-menu__link-text">Beranda</span></a></li>
 				<li class="kt-menu__section ">
-					<h4 class="kt-menu__section-text">Amoeba</h4>
+					<h4 class="kt-menu__section-text">Umat</h4>
 					<i class="kt-menu__section-icon flaticon-more-v2"></i>
 				</li>
-				<% if (userProfile.Role === 'Innovation Manager') { %>
-				<li class="<%= path === '/amoeba/add-amoeba' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
-					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/amoeba/add-amoeba"
+				
+				<li class="<%= path === '/' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
+					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/"
 						class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 								width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
@@ -127,12 +127,12 @@
 									<path d="M11.3,6 L12.5,3 L13.7,6 L11.3,6 Z M14.5,8 L10.5,8 L14.5,8 Z"
 										id="Combined-Shape" fill="#000000" />
 								</g>
-							</svg></span><span class="kt-menu__link-text">Add Amoeba</span></a>
+							</svg></span><span class="kt-menu__link-text">Umat</span></a>
 
 				</li>
-				<% } %>
-				<li class="<%= path === '/amoeba' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
-					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/amoeba/insight-amoeba"
+				
+				<li class="<%= path === '/' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
+					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/"
 						class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 								width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
@@ -144,16 +144,16 @@
 									<path d="M11.3,6 L12.5,3 L13.7,6 L11.3,6 Z M14.5,8 L10.5,8 L14.5,8 Z"
 										id="Combined-Shape" fill="#000000" />
 								</g>
-							</svg></span><span class="kt-menu__link-text">List Amoeba</span></a>
+							</svg></span><span class="kt-menu__link-text">List Imam</span></a>
 
 				</li>
 				<li class="kt-menu__section ">
-					<h4 class="kt-menu__section-text">Talent</h4>
+					<h4 class="kt-menu__section-text">Imam</h4>
 					<i class="kt-menu__section-icon flaticon-more-v2"></i>
 				</li>
-				<% if (userProfile.Role === 'Innovation Manager') { %>
-				<li class="<%= path === '/talent/add-talent' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
-					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/talent/add-talent"
+				
+				<li class="<%= path === '/' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
+					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/"
 						class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 								width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
@@ -169,9 +169,9 @@
 							</svg>
 						</span><span class="kt-menu__link-text">Add Talent</span></a>
 				</li>
-				<% } %>
-				<li class="<%= path === '/talent' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
-					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/talent/insight-talent"
+				
+				<li class="<%= path === '/' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
+					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/"
 						class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 								width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
@@ -191,9 +191,9 @@
 					<h4 class="kt-menu__section-text">Ideas</h4>
 					<i class="kt-menu__section-icon flaticon-more-v2"></i>
 				</li>
-				<% if (userProfile.Role === 'Innovation Manager') { %>
-				<li class="<%= path === '/idea/add-idea' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
-					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/ide/add-ide"
+				
+				<li class="<%= path === '/' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
+					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/"
 						class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 								width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
@@ -214,8 +214,8 @@
 						</span><span class="kt-menu__link-text">Add Ideas</span></a>
 
 				</li>
-				<li class="<%= path === '/ide' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
-					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/ide/list-ide"
+				<li class="<%= path === '/' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
+					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/"
 						class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon">
 						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 							width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
@@ -235,9 +235,9 @@
 						</svg>
 					</span><span class="kt-menu__link-text">List Ideas</span></a>
 				</li>
-				<% } else { %>
-				<li class="<%= path === '/ide' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
-					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/ide/list-ide"
+				
+				<li class="<%= path === '/' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
+					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/"
 						class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon">
 							<!-- <svg
 								xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -271,16 +271,16 @@
 						</span><span class="kt-menu__link-text">List Ideas</span></a>
 
 				</li>
-				<% } %>
+				
 
 				<!-- SideBar untuk Monev -->
-				<% if (userProfile.Role === 'Innovation Manager') { %>
+				
 				<li class="kt-menu__section ">
 					<h4 class="kt-menu__section-text">Monev</h4>
 					<i class="kt-menu__section-icon flaticon-more-v2"></i>
 				</li>
-				<li class="<%= path === '/monev/create-monev' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
-					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/monev/create-monev"
+				<li class="<%= path === '/' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
+					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/"
 						class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 								width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
@@ -296,9 +296,9 @@
 							</svg>
 						</span><span class="kt-menu__link-text">Add Monev</span></a>
 				</li>
-				<% } else { %>
-				<li class="<%= path === '/monev' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
-					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/monev/insight-monev"
+				
+				<li class="<%= path === '/' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
+					aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/"
 						class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 								width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
@@ -314,9 +314,9 @@
 							</svg>
 						</span><span class="kt-menu__link-text">List Monev</span></a>
 					</li>				
-					<% } %>
-					<li class="<%= path === '/monev' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
-						aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/monev/list-monev"
+					
+					<li class="<%= path === '/' ? 'kt-menu__item kt-menu__item--active' : 'kt-menu__item kt-menu__item--submenu' %>"
+						aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="/"
 							class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon">
 								<!-- <svg
 									xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"

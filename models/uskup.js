@@ -1,14 +1,14 @@
 const Sequelize = require('sequelize');
 const sequelize = require('../util/database');
 
-const Imam = sequelize.define('Imam', {
+const Uskup = sequelize.define('Uskup', {
     Id: {
         type: Sequelize.INTEGER,
         allowNull: false,
         autoIncrement: true,
         primaryKey: true
     },
-    NamaImam: {
+    NamaUskup: {
         type: Sequelize.STRING,
         allowNull: false
     },
@@ -22,4 +22,4 @@ const Imam = sequelize.define('Imam', {
     }
 });
 
-module.exports = Imam;
+module.exports = Uskup;

@@ -60,7 +60,7 @@
 			<div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="0px,0px">
 				<div class="kt-header__topbar-user">
 					<span class="kt-header__topbar-welcome kt-hidden-mobile">Hi,</span>
-					<span class="kt-header__topbar-username kt-hidden-mobile"> <%= userProfile.Nama %></span>
+					<span class="kt-header__topbar-username kt-hidden-mobile"> </span>
 					<img class="rounded-circle" alt="Pic" src="/assets/media/users/default.jpg" />
 
 					<!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
@@ -81,7 +81,7 @@
 						<!-- <span class="kt-badge kt-badge--lg kt-badge--rounded kt-badge--bold kt-font-success">S</span> -->
 					</div>
 					<div class="kt-user-card__name">
-						<%= userProfile.Nama %>
+						
 					</div>
 					<!-- <div class="kt-user-card__badge">
 						<span class="btn btn-success btn-sm btn-bold btn-font-md">23 messages</span>
@@ -119,12 +119,12 @@
 						</div>
 					</a> -->
 					<div class="kt-notification__custom kt-space-between">
-						<form action="/logout" method="POST">
+						<form action="/" method="POST">
 							<!-- <a href="#" type="submit" class="btn btn-label btn-label-brand btn-sm btn-bold">Sign
 								Out</a> -->
 							<!-- <a href="demo1/custom/user/login-v2.html" target="_blank"
 							class="btn btn-clean btn-sm btn-bold">Upgrade Plan</a> -->
-							<input type="hidden" value="<%= csrfToken %>" name="_csrf">
+							<input type="hidden" value="" name="_csrf">
 							<button type="submit" class="btn btn-label btn-label-brand btn-sm btn-bold">Sign
 								Out</button>
 						</form>
